@@ -55,8 +55,8 @@ class SuppliesCashRegister:
 
     def set_capacity(self, new_capacity):
         self.__capacity = new_capacity
-        if new_capacity < self.__money_stored):
-            print(money over new capacity was transfered)
+        if (new_capacity < self.__money_stored):
+            print("money over new capacity was voided")
             self.set_money_stored(new_capacity)
 
     # unloads register (quick function)
@@ -125,8 +125,8 @@ def main():
     print("begin transaction:")
     myRegister.start_transaction()
     # shows money 
-    print(f"Register {myRegister.get_designation} now has: {myRegister.get_money_stored()}")
-    print(f"Capacity of register is {myRegister.get_capacity()}, currently ${myRegister.get_capacity() - myRegister.get_money_stored()} under capacity")
+    print(f"Register {myRegister.get_designation()} now has: ${myRegister.get_money_stored()}")
+    print(f"Capacity of register is ${myRegister.get_capacity()}, currently ${myRegister.get_capacity() - myRegister.get_money_stored()} under capacity")
 
 if __name__ == "__main__":
     main()
