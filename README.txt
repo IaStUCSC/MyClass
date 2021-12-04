@@ -1,3 +1,4 @@
+https://github.com/IaStUCSC/MyClass
 This demo program creates a cash register for a school supplies store operating in the state of California. An object of a SuppliesCashRegister is created with its designation (Identification code), some money in the register, and a capacity for money (we assume only physical cash transactions are made). You can get and set these values (except the id, which can’t be edited after creation), as well as getting the items in the store’s inventory, handily preloaded onto the register! The main functionality, though, is start_transaction, which allows the user to input multiple purchases simply and efficiently, quickly updating the register. 
 
 VARIABLES:
